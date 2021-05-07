@@ -1,0 +1,311 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.login{
+  display: flex;
+  background-color: #F9CC3D;
+}
+.header-section{
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+}
+h1 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin: 30px 0px 0px 100px;
+  font-style: flame;
+}
+/* .header-section img {
+  height: 500px;
+  width: 400px;
+  margin-top: 20px;
+} */
+.form {
+ /* background-color: green;  */
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+h2{
+  color: #fff;
+  font-size: 30px;
+  margin-left: 36%;
+  /* background-color: red; */
+  width: 70px;
+}
+.login-detail{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+.username {
+  width: 70px;
+  font-size: 16px;
+  /* background-color: red; */
+}
+.username-input {
+  font-size: 15px;
+  font-weight:500;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  padding: 5px 0px;
+  background-color: inherit;
+}
+.password{
+  width: 70px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.password-input {
+  font-size: 15px;
+  font-weight:500;
+  width: 60%;
+  letter-spacing: 3px;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  padding: 5px 0px;
+  background-color: inherit;
+}
+.login-detail a{
+  color: black;
+  margin-top: 20px;
+  margin-left: 43%;
+}
+.login-btn {
+  width: 18%;
+  background-color: black;
+  color: #fff;
+  font-size: 21px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 31%;
+  cursor: pointer;
+}
+.or-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-top: 60px;
+  
+}
+.or-section hr {
+  width: 28%;
+  height: 1px;
+  border-style: none ;
+  background-color: rgb(119, 110, 110);
+
+}
+.or-section p {
+  margin-top: -9px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.rigester{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:19%;
+  margin-top: 30px;
+}
+.rigester-link{
+  margin-top: 10px;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+.google img {
+  height: 25px;
+  width: 25px;
+  margin: auto 15px;
+}
+.google p {
+  font-size: 15px;
+  margin: auto 15px;
+}
+.google i {
+  margin: auto 15px;
+}
+.google {
+  display: flex;
+  border-style: none;
+  border: 2px solid black;
+  padding: 7px;
+  width: 40%;
+  margin-left: 20%;
+  border-radius: 25px;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: inherit;
+}
+.facebook img {
+  height: 35px;
+  width: 35px;
+  margin: auto 12px;
+  /* background-color: red; */
+}
+.facebook p {
+  font-size: 15px;
+  margin: auto 12px;
+}
+.facebook i {
+  margin: auto 12px;
+}
+.facebook {
+  display: flex;
+  border-style: none;
+  border: 2px solid black;
+  width: 40%;
+  padding: 2px;
+  margin-left: 20%;
+  border-radius: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.sign-up {
+  /* background-color: green; */
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-detail{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+.signup-heading {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 36%;
+  width: 100px;
+}
+.email {
+  width: 70px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.email-input {
+  font-size: 15px;
+  font-weight:500;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  padding: 5px 0px;
+  background-color: inherit;
+}
+.password2{
+  width: 120px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.confirm-password {
+  width: 120px;
+  font-size: 16px;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+.confirmPassword-input {
+  font-size: 15px;
+  font-weight:500;
+  width: 60%;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  letter-spacing: 3px;
+  padding: 5px 0px;
+  background-color: inherit;
+}
+.terms-condition {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+}
+.terms-condition p a {
+  text-decoration: underline;
+}
+.terms-condition p {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.checkbox{
+  zoom: 1.5;
+}
+.subscribe{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+}
+.subscribe p {
+  margin-left: 5px;
+  width: 58%;
+  font-size: 14px;
+}
+.signup-btn{
+  width: 18%;
+  background-color: black;
+  color: #fff;
+  font-size: 21px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 31%;
+  cursor: pointer;
+}
+.or2-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+.or2-section hr {
+  width: 28%;
+  height: 1px;
+  border-style: none ;
+  background-color: rgb(119, 110, 110);
+}
+.images{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.baby{
+  height: 422px;
+  width: 538px;
+  margin-top: 150px;
+  margin-left: -149px;
+  /* background-color: red; */
+}
+.balloon {
+  height: 270px;
+  width: 110px;
+  margin-top: 110px;
+  /* background-color: green; */
+  margin-left: -5px;
+}

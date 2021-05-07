@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-page{
+  
+}
+
+body{
+  background: linear-gradient(180deg, #F9CC3D 0%, rgba(255,255,255,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 

@@ -1,0 +1,50 @@
+.nav-section{
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: red; */
+}
+.logo{
+  width: 30%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffff;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.logo p {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-items {
+  width: 40%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-around;
+  
+}
+.nav-items a {
+  list-style: none;
+  cursor: pointer;
+}
+.profile {
+  width: 30%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+}
+.profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  list-style: none;
+  cursor: pointer;
+}
+.logout {
+  margin-left: 30px;
+  list-style: none;
+  cursor: pointer;
+}

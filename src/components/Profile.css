@@ -1,0 +1,205 @@
+.profile-div {
+  background-color: rgb(110 94 94 / 17%);
+  height: 650px;
+  width: 76%;
+  margin: 10px auto;
+  /* overflow-y: hidden; */
+}
+.heading{
+  /* background-color: red; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.heading p {
+  color: #000;
+  font-size: 20px;
+  margin-left: 20%;
+  font-weight: bold;
+}
+.photo-upload{
+  width: 100px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 22%;
+  margin-top: 10px;
+}
+.photo-upload img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.photo-upload p {
+  color: #000;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.name {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20%;
+  color: #000;
+}
+.fname{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.fname-input{
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(229 208 151);
+  border-style: none;
+  border: 1px solid #000;
+  font-size: 15px;
+  border-radius: 2px;
+  padding: 10px 2px;
+}
+.profile-username{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 40px;
+}
+.pusername-input{
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(229 208 151);
+  border-style: none;
+  border: 1px solid #000;
+  font-size: 15px;
+  border-radius: 2px;
+  padding: 10px 2px;
+}
+.profile-email{
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  margin-left: 20%;
+  margin-top: 25px;
+}
+.lemail {
+  font-size: 14px;
+  font-size: 14px;
+}
+.iemail {
+  background-color: rgb(229 216 184);
+  border-style: none;
+  border: 1px solid #000;
+  font-size: 15px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 10px 2px;
+  width: 240px;
+}
+.date-gender{
+  margin-left: 20%;
+  margin-top: 25px;
+  display: flex;
+}
+.gender{
+  display: flex;
+  flex-direction: column;
+}
+.gender-label{
+  font-size: 14px;
+}
+.gender-input {
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: #e5d4a7;
+  border-style: none;
+  border: 1px solid #000;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.date{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.ldate{
+  font-size: 14px;
+}
+.idate{
+  height: 25px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: #e5d4a7;
+  border-style: none;
+  border: 1px solid #000;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.save-btn{
+  width: 7%;
+  background-color: black;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px 0px;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20%;
+  cursor: pointer;
+}
+.camera-icon{
+  font-size: 35;
+  cursor: pointer;
+  position: absolute;
+  bottom: 62.7%;
+  right: 65%;
+  /* background-color: #e1e1e1;
+  border-radius: 50%; */
+}
+
+.container-cropper {
+	height: 550px;
+	width: 60%;
+  margin: auto;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+.cropper {
+	height: 100%;
+  width: 100%;
+	position: relative;
+  margin: auto;
+}
+.slider {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.btn-cancle{
+  width: 5%;
+  background-color: black;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 0px;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn-save {
+  width: 5%;
+  background-color: black;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 0px;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
